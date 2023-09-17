@@ -6,8 +6,8 @@ const Home = () => {
 
     const [allCourse, setCourse] = useState([]);
     const [selectedCourse, setSelectedCourse] = useState([]);
-    const [totalCredit, setCredit] = useState([])
-    const [totalCraditHr, setTotalCradit] = useState([0])
+    const [totalCredit, setCredit] = useState([20]);
+    const [totalCraditHr, setTotalCradit] = useState([0]);
 
     useEffect(() => {
         fetch("./data.json")
@@ -31,8 +31,8 @@ const Home = () => {
             });
 
 
-            const totalRemaining = 20 - count; 
-            
+            const totalRemaining = 20 - count;
+
 
             if (count > 20) {
                 Swal.fire({
