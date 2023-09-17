@@ -1,10 +1,11 @@
 # Add at least 3 Project features
 
-* User can select his/her course
 
-* User see his/her total credit hour
+* Course Selection: Allow users to choose their preferred courses from a list of available options.
 
-* User can take highest 20 credit hour
+* Credit Hour Tracking: Provide users with a clear view of their total credit hours as they select courses.
+
+* Credit Limit: Implement a limit where users can enroll in a maximum of 20 credit hours, ensuring a balanced course load.
 
 # Discuss how you managed the state in your assignment project.
  

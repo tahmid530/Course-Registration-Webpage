@@ -54,12 +54,13 @@ const Home = () => {
         <>
             <h1 className="text-[#1C1B1B] text-center text-3xl font-bold mt-12 mb-8">Course Registration</h1>
 
-            <div className="flex gap-6 justify-evenly mb-20">
-                <div className="card grid grid-cols-3 gap-6">
+            <div className="flex flex-col-reverse lg:flex-row gap-6 lg:justify-evenly lg:mb-20">
+
+                <div className="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {
                         allCourse.map(course => (
 
-                            <div key={course.id} className="card w-96 bg-base-100 shadow-xl">
+                            <div key={course.id} className="card w-96 bg-base-100 shadow-xl mx-auto lg:mx-0">
                                 <figure><img src={course.image} alt="" /></figure>
                                 <div className="card-body items-center">
                                     <h2 className="card-title">
